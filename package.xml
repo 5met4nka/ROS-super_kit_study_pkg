@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>sports_pkg</name>
+  <name>super_kit_study_pkg</name>
   <version>0.0.0</version>
-  <description>The sports_pkg package</description>
+  <description>The super_kit_study_pkg package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
