@@ -8,6 +8,6 @@ def even_numbers_subscriber_callback(data):
 
 rospy.init_node('even_numbers_subscriber')
 
-sub = rospy.Subscriber('/my_topic', Int32, even_numbers_subscriber_callback)
+sub = rospy.Subscriber('my_topic', Int32, even_numbers_subscriber_callback)
 
 rospy.spin()

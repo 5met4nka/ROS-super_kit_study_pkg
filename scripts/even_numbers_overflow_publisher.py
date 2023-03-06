@@ -5,8 +5,8 @@ from std_msgs.msg import Int32
 
 rospy.init_node('even_numbers_overflow_publisher')
 
-pub1 = rospy.Publisher('/my_topic', Int32, queue_size=10)
-pub2 = rospy.Publisher('/overflow_topic', Int32, queue_size=10)
+pub1 = rospy.Publisher('my_topic', Int32, queue_size=10)
+pub2 = rospy.Publisher('overflow_topic', Int32, queue_size=10)
 
 rate = rospy.Rate(10)
 

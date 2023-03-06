@@ -8,6 +8,6 @@ def even_numbers_overflow_subscriber_callback(data):
 
 rospy.init_node('even_numbers_overflow_subscriber')
 
-sub = rospy.Subscriber('/overflow_topic', Int32, even_numbers_overflow_subscriber_callback)
+sub = rospy.Subscriber('overflow_topic', Int32, even_numbers_overflow_subscriber_callback)
 
 rospy.spin()
