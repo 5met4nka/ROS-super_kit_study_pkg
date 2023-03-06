@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import rospy
 from std_msgs.msg import Int32
@@ -14,10 +14,10 @@ def start_even_numbers_publisher():
     count = 0
 
     while not rospy.is_shutdown():
+        
+        pub.publish(count)
         rospy.loginfo(count)
-        if count % 2 == 0:
-            pub.publish(count)
-        count += 1
+        count += 2
         
         rate.sleep()
 

@@ -16,17 +16,16 @@ def start_even_numbers_overflow_publisher():
 
     while not rospy.is_shutdown():
 
-        if count % 2 == 0:
-            rospy.loginfo(count)
-            if count < 100:
-                pub1.publish(count)
-            else:
-                pub2.publish(count)
-            
-            if count == 100:
-                count = 0
+        rospy.loginfo(count)
+        if count < 100:
+            pub1.publish(count)
+        else:
+            pub2.publish(count)
         
-        count += 1
+        if count == 100:
+            count = 0
+        
+        count += 2
         
         rate.sleep()
 
