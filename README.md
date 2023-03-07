@@ -8,4 +8,4 @@
 
 * ссылка на реп в GitHub [тык](https://github.com/lsd-maddrive/ROS_course)
 
-* ссылка на страничку в Moodle [тык]([https://github.com/lsd-maddrive/ROS_course](https://vec.etu.ru/moodle/course/view.php?id=12080))
+* ссылка на страничку в Moodle [тык](https://vec.etu.ru/moodle/course/view.php?id=12080)
